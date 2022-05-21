@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 30px;
+    margin: 10%;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+.container{
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.sub-container{
+    /* border: 1px solid rgb(0, 0, 0); */
+    height: 500px;
+    /* width: 400px; */
+    background-color: transparent;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 6px 6px 13px #b9b5b4, 6px 6px 13px rgba(0,0,0,.16);
+}
+.input-display{
+    /* border: 1px solid orange; */
+    height: 150px;
+    /* width: 400px; */
+}
+.input-display input{
+    padding: 10px;
+    margin: 10px 10px 10px 13px;
+    width: 94%;
+    height: 120px;
+    box-shadow:  inset -6px -6px 13px #ffffff, inset 6px 6px 13px rgb(181 178 170);
+    border: none;
+    outline: none;
+    font-size: 30px;
+    background-color: transparent;
+}
+.btns{ 
+    height: 350px; 
+    width: 400px; 
+    padding: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+} 
+.btn{
+    width: 90px;
+    height: 64px;
+    font-size: 24px;
+    font-family: math;
+     border: none; 
+    cursor: pointer;
+    transition-duration: 0.4s;
+    background-color: transparent;
+    /* background-color: white; 
+    color: black;  */
+  
+}
+
+.btnzero{
+    width: 184px;
+} 
+
+.btn1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+.btn2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+.btn3:hover {
+    background-color: #f44336;
+    color: white;
+}
+  
+.btn4:hover {background-color: #009688;
+}
+
+.btn5:hover {
+    background-color: #555555;
+    color: white;
+}
+.btn6:hover{
+    background-color: #f7382b;
+    color: white;
+}
+.btn7:hover{
+    background-color: #ce1864;
+    color: white;
+}
+.btn8:hover{
+    background-color: #d19018;
+    color: white;
+}
+   /* background-image: linear-gradient(45deg,#7e747e,#786695,#4b2087,#7e6ab5,#6e3f6e); */
