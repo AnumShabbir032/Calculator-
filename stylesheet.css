@@ -3,10 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 h1{
     font-size: 30px;
-    margin: 10%;
+    margin-top: 13%;
     text-transform: uppercase;
     font-family: monospace;
 }
@@ -20,9 +19,7 @@ h1{
     align-content: space-around;
 }
 .sub-container{
-    /* border: 1px solid rgb(0, 0, 0); */
     height: 500px;
-    /* width: 400px; */
     background-color: transparent;
     margin: auto;
     display: flex;
@@ -31,9 +28,8 @@ h1{
     box-shadow: 6px 6px 13px #b9b5b4, 6px 6px 13px rgba(0,0,0,.16);
 }
 .input-display{
-    /* border: 1px solid orange; */
     height: 150px;
-    /* width: 400px; */
+
 }
 .input-display input{
     padding: 10px;
@@ -46,6 +42,34 @@ h1{
     font-size: 30px;
     background-color: transparent;
 }
+
+button {
+    padding: 10px 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+  button:active {
+    transform: translateY(-1px);
+  }
+
 .btns{ 
     height: 350px; 
     width: 400px; 
@@ -55,7 +79,7 @@ h1{
     flex-direction: column;
 } 
 .btn{
-    width: 90px;
+    width: 89px;
     height: 64px;
     font-size: 24px;
     font-family: math;
@@ -63,9 +87,6 @@ h1{
     cursor: pointer;
     transition-duration: 0.4s;
     background-color: transparent;
-    /* background-color: white; 
-    color: black;  */
-  
 }
 
 .btnzero{
@@ -104,4 +125,3 @@ h1{
     background-color: #d19018;
     color: white;
 }
-   /* background-image: linear-gradient(45deg,#7e747e,#786695,#4b2087,#7e6ab5,#6e3f6e); */
